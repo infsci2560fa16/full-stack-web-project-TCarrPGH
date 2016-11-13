@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!--Credit to W3C checklist tutorial http://www.w3schools.com/howto/howto_js_todolist.asp-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My List</title>
+  </head>
+  <body>
+  <div id = "header-placeholder"></div>
+    <div class="container">
+      <div class="row clearfix">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h1 class= "listTitle">Add Items</h1>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class = "row">
+            <div class="col-md-4 col-md-offset-2">
+              <label for="produceInput">Item</label>
+              <input type="text" id='produceInput' placeholder='Name' class="form-control"/>
+            </div>
+            <div class="col-md-1">
+              <div class ="row">
+                <label for="quantity">Quantity</label>
+                </div>
+              <div class ="row">
+                <input type="text" id='quantity' placeholder='Units' class="form-control"/>
+              </div>
+            </div>   
+            <div class=" col-md-2 ">
+              <span onclick="newElement()" class="btn btn-primary btn-block">Add</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="col-md-12">
+        <div id= "groceryLI" class = "form-group">
+            <hr class="star-light">
+            <h2 class = "myListTitle">Items in My List</h2>
+          <section>
+            <h3 class = "produceHeader">Produce</h3>
+            <ul id="produceUL"> </ul>
+          </section>
+          <section>
+            <h4 class = "bakery">Bakery</h4>
+            <ul id = "bakeryUL"></ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+ 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="addItems2.js"></script>
+	<script src="header.js"></script>
+	
+  </body>
+</html>
