@@ -1,0 +1,23 @@
+/* code online
+handler = function (div_id) {
+    return function() { alert(div_id); }
+}
+
+for (i ...) {
+    div_id = divs[i].id;
+    divs[i].onclick = handler(div_id);
+}*/
+
+// Click on a close button to hide the current list item
+
+/* old funciton in the loop
+var close = document.getElementsByClassName("close");
+var j;
+for (j = 0; j < close.length; j++) {
+    close[i].onclick = function()  {
+    "use strict";
+	var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+*/

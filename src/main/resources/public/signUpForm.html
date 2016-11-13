@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Sign Up</title>
+</head>
+
+  <body>
+    <div id = "header-placeholder"></div>
+    <div class ="container">
+      <form class="signUpForm">
+        <div class="form-group row">
+          <h1 class="form-signUp-heading">Sign up to make lists now</h1>
+        </div>
+        <div class="form-group row">
+          <label for="firstName" class="col-md-2 col-md-offset-3 col-form-label">First Name</label>
+          <div class="col-md-3">
+            <input type="text" class="form-control" id="firstName">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="lastName" class="col-md-2 col-md-offset-3 col-form-label">Last Name</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="lastName">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail" class="col-md-2 col-md-offset-3 col-form-label">Email</label>
+          <div class="col-md-3">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-md-2 col-md-offset-3 col-form-label">Password</label>
+          <div class="col-md-3">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="form-inline"> 
+      <div class="col-md-3 col-md-offset-4">
+        <button id="signUpForm" type="submit" class="btn   btn lg btn-primary btn-block">Submit</button>
+          <h2 class = "accountHolder">Already have an account?</h2>
+          <h3 class = "signInLink"><a href="signin.html">Sign in</a></h3>
+      </div>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="header.js"></script>
+</body>
+</html>
