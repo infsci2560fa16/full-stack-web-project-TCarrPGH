@@ -10,22 +10,33 @@
     <title>Create List</title>
   </head>
   <body>
-	<div class="container-fluid">
-	  <h1>Create a New Shopping List</h1>
-	  <form>
-	    <div class="form-group">
+    <div class="container-fluid">
+      <h1>Create a New Shopping List</h1>
+      <form id= "newList">
+        <div class="form-group">
           <label for="listName">Name Your List</label>
           <input type="text" class="form-control" id="listName">
         </div>
-	  </form>
+        <div class = "row">
+          <div class="container">
+            <h2>Use a Premade List!</h2>
+            <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">
+            <span class="glyphicon glyphicon-collapse-down"></span> Open
+            </button>
+            <div id="demo" class="collapse">
+              Add some Radio Buttons!
+            </div>
+          </div>
+        </div>
+      </form>
       <div class="form-inline"> 
-	    <div class="col-md-offset-5 col-md-2"> 
-	      <button type="submit" class="btn btn-default-primary btn-lg active">Submit</button>
-		  <a href="addItems.html" class="btn btn-primary btn-lg active" role="button">Add Items</a>
-		</div>
-	  </div>
-	</div>
+        <div class="col-md-offset-5 col-md-2"> 
+          <button type="submit" class="btn btn-default-primary btn-lg active">Submit</button>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="createList.js"></script>
   </body>
 </html>
