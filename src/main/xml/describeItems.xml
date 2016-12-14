@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<class xmlns= "http://fullstack-tc.herokuapp.com/db"
+	xmlns:xsi = "http://fullstack-tc.herokuapp.com/dbXMLSchema-instance"
+	xsi:schemaLocation = "http://fullstack-tc.herokuapp.com/db describeItems.xsd">
+
+	<items>
+		<item id= "1"  itemName="Milk"  price = "$4" size ="1 liter" weight="1 lb">
+			<description>
+				From a cow. From a nut. 
+			</description>
+			<imageUrl> 
+			http://www.medicalnewstoday.com/content/images/articles/296/296564/cow-and-a-jug-of-milk.jpg
+			</imageUrl>
+		</item>
+		<item id= "2"  itemName="Cheese"  price = "$5" size ="1 package" weight=".5 lb">
+			<description>
+				From a cow. From a sheep. Not from a nut.
+			</description>
+			<imageUrl> 	http://content.science20.com/files/images/not%20GMO%20vegan%20cheese%20but%20could%20you%20tell%20anyway.jpg
+			</imageUrl>
+		</item>
+		<item id= "3"  itemName="Bacon"  price = "$4" size ="1 package" weight="1 lb">
+			<description>
+				Delicious. 
+			</description>
+			<imageUrl> 
+			http://vignette3.wikia.nocookie.net/uncyclopedia/images/f/f6/Bacon.png/revision/latest?cb=20110430194152
+			</imageUrl>
+		</item>
+		
+		<item id= "4"  itemName="Banana"  price = "$4" size ="1 Bunch" weight="3 lb">
+			<description>
+				Natures candy bar. 
+			</description>
+			<imageUrl> 
+			http://www.fox1023.com/wp-content/uploads/2016/05/banana-2.jpg
+			</imageUrl>
+		</item>
+	</items>
+	<lists>
+		<list id ="1" listName ="Groceries">
+			<description>A weekly shopping list that stores your essential items. Watching the food network may get you in the mood to release your inner Alton Brown, but you can always add more.
+			</description>	
+		</list>
+		<list id ="3" listName ="Travel">
+			<description>This precompiled list has everything you need for an international trip. Be ready to fly out with your passport, electrical adapters, gadgets, and important paperwork.
+			</description>	
+		</list>
+	</lists>
+</class>
+ 
+
+ 
